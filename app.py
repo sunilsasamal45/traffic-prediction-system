@@ -29,4 +29,5 @@ if st.button("Predict Traffic"):
 
     traffic = le.inverse_transform(prediction)
 
+
     st.success("Predicted Traffic: " + traffic[0])
